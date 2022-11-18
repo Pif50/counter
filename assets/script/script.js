@@ -18,7 +18,7 @@ container.appendChild(counter);
 counter.appendChild(count);
 counter.appendChild(buttons);
 
-buttons.append(add, reset, sub);
+buttons.append(sub, reset, add);
 
 //Add css style:
 container.setAttribute("class", "container");
