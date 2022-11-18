@@ -17,34 +17,7 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="counter">
-        <p id="count">0</p>
-        <div class="buttons">
-          <button id="sub"><i class="fas fa-minus"></i></button>
-          <button id="reset">Reset</button>
-          <button id="add"><i class="fas fa-add"></i></button>
-        </div>
-      </div>
-    </div>
-    <script src="/assets/script/script.js">
-      const container = document.querySelector('.container');
-      const counter = document.querySelector('.counter');
-      container.appendChild(counter);
-
-      const count = document.querySelector('#count');
-      count.textContent = "0"
-      counter.appendChild(count);
-
-      const buttons = document.querySelector('.buttons');
-      const sub = document.querySelector('#sub');
-      const reset = document.querySelector('#reset');
-      reset.textContent = "reset"
-      const add = document.querySelector('#add');
-
-      buttons.appendChild(sub)
-      buttons.appendChild(reset)
-      buttons.appendChild(add)
-    </script>
+    <div id="counter1"></div>
+    <script src="/assets/script/script.js"></script>
   </body>
 </html>

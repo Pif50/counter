@@ -50,7 +50,7 @@ body {
 }
 
 /* Css for Sub Button */
-.counter .buttons button#sub {
+.counter .buttons .button#sub {
   background-color: orangered;
   color: #fff;
 }
